@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE BON SYSTEM "bon.dtd">
+<COMMANDE>
+    <Emetteur>
+        <Nom>Amazon</Nom>
+        <Adresse>67 BOULEVARD DU GENERAL LECLERC 92110 CLICHY</Adresse>
+        <Telephone>08 05 10 14 20</Telephone>
+        <Telecopie>01 84 88 42 53</Telecopie>
+    </Emetteur>
+    <Destinataire>
+        <Nom>Lycée Rabelais</Nom>
+        <Adresse>8 rue Rabelais 22000 Saint Brieuc</Adresse>
+        <Telephone>02 96 68 32 70</Telephone>
+    </Destinataire>
+    <Date>04/10/2024</Date>
+    <Montant>255,00€</Montant>
+    <Ligne>
+        <Reference>HF459</Reference>
+        <Intitule>CD</Intitule>
+        <Quantite>15</Quantite>
+        <Prix_unitaire>15,00€</Prix_unitaire>
+    </Ligne>
+    <Ligne>
+        <Reference>XM254</Reference>
+        <Intitule>Lecteur CD</Intitule>
+        <Quantite>1</Quantite>
+        <Prix_unitaire>30,00€</Prix_unitaire>
+    </Ligne>
+</COMMANDE>
