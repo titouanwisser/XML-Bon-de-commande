@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!ELEMENT COMMANDE (Emetteur, Destinataire, Date, Montant, Ligne+)>
-<!ELEMENT Emetteur (Nom, Adresse, Telephone, Telecopie*)>
-<!ELEMENT Destinataire (Nom, Adresse, Telephone, Telecopie*)>
+<!ELEMENT Date (#PCDATA)>
+<!ELEMENT Montant (#PCDATA)>
+<!ELEMENT Emetteur (Nom, Adresse, Telephone, Telecopie?)>
+<!ELEMENT Destinataire (Nom, Adresse, Telephone, Telecopie?)>
 <!ELEMENT Ligne (Reference, Intitule, Quantite, Prix_unitaire)>
 <!ELEMENT Nom (#PCDATA)>
 <!ELEMENT Adresse (#PCDATA)>
 <!ELEMENT Telephone (#PCDATA)>
 <!ELEMENT Telecopie (#PCDATA)>
-<!ELEMENT Date (#PCDATA)>
-<!ELEMENT Montant (#PCDATA)>
 <!ELEMENT Reference (#PCDATA)>
 <!ELEMENT Intitule (#PCDATA)>
 <!ELEMENT Quantite (#PCDATA)>
